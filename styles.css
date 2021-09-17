@@ -1,0 +1,63 @@
+body{
+  background-color: #5F7A61;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: #7FC8A9;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  color: #D5EEBB;
+  font-size: 3rem;
+}
+
+.fas{
+  color: #911F27;
+}
+
+@media (max-width : 580px) {
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  img{
+    width: 10rem;
+  }
+  .dice-1{
+    position: static;
+    display: block;
+    padding-top: 10%;
+  }
+
+  .dice-2{
+    position: static;
+    display: block;
+  }
+}
+
+.both-dices{
+  text-align: center;
+}
+
+.dice-1{
+  position: relative;
+  display: inline-block;
+  padding-right: 10%;
+
+}
+
+.dice-2{
+  position: relative;
+  display: inline-block;
+
+}
