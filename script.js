@@ -16,9 +16,11 @@ function changeHeading(){
     document.querySelector("h1").innerHTML = '<i class="fas fa-flag"></i> Player 1 has won.';
   } else if (randomNum1 < randomNum2) {
     document.querySelector("h1").innerHTML = 'Player 2 has won. <i class="fas fa-flag"></i>';
-  } else {
+  } else if (randomNum1 === randomNum2) {
     document.querySelector("h1").innerHTML = 'Draw.';
-  }
+  } else {
+    document.querySelector("h1").innerHTML = 'Refresh me.';
+   }
 }
 
 function changeDiceOne(){
