@@ -17,10 +17,6 @@ h2{
   font-size: 3rem;
 }
 
-.fas{
-  color: #911F27;
-}
-
 @media (max-width : 580px) {
   h1{
     font-size: 3rem;
